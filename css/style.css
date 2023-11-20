@@ -1,23 +1,32 @@
+.container {
+    margin: 0 auto
+}
+
 .top {
     display: flex;
     background: linear-gradient(to right, rgba(95, 46, 124, 1) 0%, rgba(67, 31, 92, 1) 100%);
     color: whitesmoke;
     align-items: center;
-    justify-content: space-around;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.datum-top {
+    flex-basis: 50%;
+    text-align: center;
 }
 
 
 .top-navigacija {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 30%;
+   
 }
 
 .top-navigacija a {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
@@ -26,4 +35,17 @@
     border-right: 1px solid black;
     padding: 1rem;
     gap: 0;
+}
+
+.dugme-top {
+    background-color: #AE5BA1;
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 0px 30px;
+    background-color: #AE5BA1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: -1rem 4rem;
 }
