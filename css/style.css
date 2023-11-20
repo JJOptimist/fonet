@@ -1,0 +1,29 @@
+.top {
+    display: flex;
+    background: linear-gradient(to right, rgba(95, 46, 124, 1) 0%, rgba(67, 31, 92, 1) 100%);
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.top-navigacija {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.top-navigacija a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navlink-top {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 1rem;
+    gap: 0;
+}
