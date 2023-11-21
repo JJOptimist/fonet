@@ -55,8 +55,9 @@
     background-image: url('../slike/logo.png');
     background-repeat: no-repeat;
     background-position: center;
-    width: 2rem;
-    height: auto;
+    width: 6rem;
+    height: 3rem;
+    
 }
 
 .navigacija {
@@ -69,6 +70,13 @@
     font-weight: bold;
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
+    border-top: 2px solid #16A954;
+    border-bottom: 2px solid #16A954;
+
+}
+
+.navigacija > * {
+    margin-inline: 1rem;
 }
 
 .nav-meni {
@@ -80,4 +88,9 @@
 .nav-meni a {
     color: whitesmoke;
     text-decoration: none;
+    padding-inline: 0.5rem;
+}
+
+#lupa {
+    fill: white;
 }
