@@ -98,11 +98,13 @@
 .drugi-container {
     display: flex;
     margin: 0 auto;
-    width: 1260px;
+    width: 75%;
 }
 
 .main-content {
     flex-basis: 70%;
+    font-family: 'DM Serif Text', sans-serif;
+
 }
 
 .side-content {
@@ -112,10 +114,10 @@
 
 .glavna-vest {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
     padding: 1rem;
     border-bottom: 1px solid black;
+    justify-content: space-evenly;
+    gap: 1rem;
 
 }
 
@@ -123,22 +125,30 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    height: 33rem;
+    width: 90%;
+   
 }
 
 .glavna-levo-gore {
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
     background-image: url('../slike/glavna-vest.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     width:100%;
+    flex-basis:78%;
+    
 
 }
 
 .glavna-levo-dole {
     display:flex;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-basis: 22%;
+    gap: 0.3rem;
 
 }
 
@@ -148,5 +158,74 @@
     justify-content: space-between;
     background-color: lightgray;
     color:black;
-    flex-basis: 31%
+    flex-basis: 33%;
+    
+}
+
+.glavna-blok-vest > * {
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+.najvaznije-vesti {
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    width: 17%;
+    font-weight: 600;
+}
+
+.glavna-naslov {
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+}
+
+.glavna-datum {
+    color: white;
+    margin: 0.5rem;
+}
+
+.glavna-desno {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+.glavna-blok-vest {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    color:black;
+    flex-basis: 49%;
+}
+
+
+
+.desno-vest-slika {
+    background-image: url('../slike/racun.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:100%;
+    flex-basis: 54%;
+    height: 8rem;
+}
+
+.desno-vest-naslov {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    flex-basis: 34%
+}
+
+.desno-vest-datum {
+    padding: 0.5rem;
+    flex-basis: 12%
+}
+
+
+.glavna-desno-vest > * {
+    margin-bottom: 1rem;
 }
