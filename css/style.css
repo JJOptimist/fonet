@@ -99,6 +99,7 @@
     display: flex;
     margin: 0 auto;
     width: 75%;
+    gap: 1rem;
 }
 
 .main-content {
@@ -108,7 +109,8 @@
 }
 
 .side-content {
-    flex-basis: 30%;
+    flex-basis: 25%;
+    font-size: 0.85rem;
 
 }
 
@@ -228,4 +230,74 @@
 
 .glavna-desno-vest > * {
     margin-bottom: 1rem;
+}
+
+.playstores {
+   display: flex;
+   margin-bottom: 0.8rem;
+   border-bottom: 1px solid black; 
+}
+
+.playstores > * {
+    margin: 2rem;
+}
+
+.google-play {
+    background-image: url('../slike/google.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    flex-basis: 45%;
+    height: 2rem;
+    width:45%;
+    border-radius: 10px;
+
+
+}
+
+.apple-play {
+    background-image: url('../slike/apple.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:45%;
+    flex-basis: 45%;
+    height: 2rem;
+    border-radius: 10px;
+
+    
+
+}
+
+.najnovije-side {
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.najnovije-naslov {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.najnovije-naslov-vest {
+    padding-inline:0.5rem;
+}
+
+.najnovije-vest {
+    display:flex;
+    align-items: center;
+    
+}
+
+.sat {
+    flex-basis: 17%;
+    background-color: #5F2E7C;
+    color: white;
+    width: 50%;
+    border-radius: 7px;
+    text-align:center;
+    padding: 0.3rem;
 }
