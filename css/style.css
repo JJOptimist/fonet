@@ -49,3 +49,35 @@
     box-sizing: border-box;
     margin: -1rem 4rem;
 }
+
+.logo {
+    text-align: center;
+    background-image: url('../slike/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2rem;
+    height: auto;
+}
+
+.navigacija {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgba(95, 46, 124, 1) 0%, rgba(67, 31, 92, 1) 100%);
+    color: whitesmoke;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+.nav-meni {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.nav-meni a {
+    color: whitesmoke;
+    text-decoration: none;
+}
