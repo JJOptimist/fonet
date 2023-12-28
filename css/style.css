@@ -301,3 +301,33 @@
     text-align:center;
     padding: 0.3rem;
 }
+
+.politika {
+    display:flex;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.politika-levo {
+    display:flex;
+}
+
+.politika-tri {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.politika-tri-vest {
+    flex-basis: 22%;
+}
+
+.politika-tri-vest-slika {
+    background-image: url('../slike/glavna-vest.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:100%;
+    flex-basis: 30%;
+    height: 8rem;
+}
