@@ -344,7 +344,14 @@
     flex-direction: column;
 }
 
-.donji-wrapper {
+.politika-wrapper {
+    display:flex;
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.produkcija-wrapper {
     display:flex;
     width: 75%;
     margin: 0 auto;
@@ -396,4 +403,9 @@
 .politika-cetiri-vest-datum {
     text-align:right;
     margin-right: 50px;
+}
+
+.produkcija {
+    display:flex;
+    flex-basis: 70%;
 }
