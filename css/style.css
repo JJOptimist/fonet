@@ -304,13 +304,12 @@
 
 .politika {
     display:flex;
-    width: 50%;
-    margin: 0 auto;
-
+    flex-basis: 70%;
 }
 
 .politika-levo {
     display:flex;
+    flex-basis:69%;
 }
 
 .politika-tri {
@@ -319,7 +318,7 @@
 }
 
 .politika-tri-vest {
-    flex-basis: 22%;
+    flex-basis: 28%;
 }
 
 .politika-tri-vest-slika {
@@ -328,6 +327,73 @@
     background-size:cover;
     background-position: center;
     width:100%;
+    flex-basis: 33%;
+    height: 7rem;
+    
+}
+
+.politika-tri-vest-tekst {
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.politika-desno {
+    flex-basis: 29%;
+    display: flex;
+    flex-direction: column;
+}
+
+.donji-wrapper {
+    display:flex;
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.politika-cetiri-vest {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+}
+.politika-tri-vest {
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.politika-tri-vest > * {
+    margin-top: 0.65rem;
+}
+
+.politika-cetiri-vest-slika {
+    background-image: url('../slike/glavna-vest.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:50%;
     flex-basis: 30%;
-    height: 8rem;
+    height: 4rem;
+}
+
+.cetiri-wrapper {
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.politika-cetiri-vest-naslov {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    
+}
+
+.politika-tri-vest-naslov {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    
+}
+
+.politika-cetiri-vest-datum {
+    text-align:right;
+    margin-right: 50px;
 }
