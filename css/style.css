@@ -727,6 +727,23 @@
     padding-bottom: 0.5rem;
 }
 
+.paginacija {
+    display:flex;
+    justify-content: flex-end;
+    gap: 0.8rem;
+    align-items: center
+
+}
+
+.broj {
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 7px;
+    padding-inline: 10px !important; 
+    border: none;
+    
+}
+
 
 
 
