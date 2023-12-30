@@ -744,6 +744,57 @@
     
 }
 
+.vesti-wrapper {
+    margin: 0 auto;
+    display:flex;
+    width: 75%;
+
+}
+
+.vesti-levo {
+    display:flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    gap: 1rem;
+
+}
+
+.selekcija-meni {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.redovi {
+    display: flex;
+    flex-direction: column;
+}
+
+.vesti-red {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.vesti-red-kod {
+    font-weight: 600;
+}
+
+.vesti-red-srb {
+    font-weight: 600;
+}
+
+.vesti-red-naslov {
+    font-weight: 600;
+}
+
+
+
+
 
 
 
